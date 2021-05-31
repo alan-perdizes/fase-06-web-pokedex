@@ -1,5 +1,7 @@
 # Pokedex SG
 
+![Logo do projeto](Image/Pokedex-supergeeks.png)
+
 ## Objetivo
 
 Esse Projeto vamos criar uma pokedex utilizando os conhecimentos que foram visto nas aulas anteriores e pegar informações externas da API (Application Program Interface) do  do [PokeApi](https://pokeapi.copokeApi).

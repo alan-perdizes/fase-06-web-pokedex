@@ -60,7 +60,9 @@ Os icones foram extraidos do site [Bootstrap Icons](https://icons.getbootstrap.c
 
 * Icones do tipos de pokemon [duiker101](https://github.com/duiker101/pokemon-type-svg-icons/releases/tag/1.0.0)
 * imagem de referência utilizada para a palheta de cores dos tipos de pokemon [thelostlambda](https://thelostlambda.github.io/pokestats/)
-* Image de referência utilizada para a palheta de cores do site [Pinterest - Vitor Mota](https://ar.pinterest.com/pin/536913586821056931/)
+* Imagem de referência utilizada para a palheta de cores do site [Pinterest - Vitor Mota](https://ar.pinterest.com/pin/536913586821056931/)
+* Imagem da pokebola [pokemon go brasil](http://www.pokemongobrasil.com/wp-content/uploads/2016/08/pokebola-go.png)
+* Imagem do bulbasalto [não sei a referência](https://pbs.twimg.com/media/Dl8nOCfXoAAt6E1.png)
 
 ## Definindo a estrutura do projeto
 
@@ -99,7 +101,9 @@ No final você deverá ver essa estrutura em seu projeto
 
 ![imagem da estrutura inicial da página](docs/image-folder-and-files.png)
 
-Depois você baixa os ícones dos tipos de pokemons e coloque eles na pasta __Image__, Certifique que a pasta de icones esteja com o nome icones, caso não esteja é só renomear. E você verá a seguinte estrutura:
+Depois você baixa os ícones dos tipos de pokemons e coloque eles na pasta __Image__, Certifique que a pasta de icones esteja com o nome icones, caso não esteja é só renomear. Ainda na pasta images coloque as imagens da pokebola e do balbasalto na pasta imagens.
+
+E você verá a seguinte estrutura:
 
 ![imagem da estrutura da pasta image](docs/image-icons.png)
 
@@ -128,3 +132,7 @@ No final ficara assim:
 ![imagem da estrutura da pasta css](docs/image-css-files.png)
 
 E pronto nossa estrutura já está pronta.
+
+## Pontos finais
+
+agora em diante você poderá navegar nos arquivos deste repositório e ir esquecendo todo o conteudo da página

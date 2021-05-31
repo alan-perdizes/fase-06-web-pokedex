@@ -61,3 +61,70 @@ Os icones foram extraidos do site [Bootstrap Icons](https://icons.getbootstrap.c
 * Icones do tipos de pokemon [duiker101](https://github.com/duiker101/pokemon-type-svg-icons/releases/tag/1.0.0)
 * imagem de referência utilizada para a palheta de cores dos tipos de pokemon [thelostlambda](https://thelostlambda.github.io/pokestats/)
 * Image de referência utilizada para a palheta de cores do site [Pinterest - Vitor Mota](https://ar.pinterest.com/pin/536913586821056931/)
+
+## Definindo a estrutura do projeto
+
+Antes de começara a programar nosso projeto, precisamos organizar os nossos arquivos em pasta, facilitando a manutenção e a responsábilidade de cada arquivo.
+
+Então no Visual Studio Code vamos criar a Seguintes pastas:
+
+* __CSS:__ Para colocar todas as folhas de estilo CSS
+* __JavaScript:__ Para colocar os arquivos JavaScript de nossa página
+* __Image:__ Para colocar as imagens e ícones de nossa página
+
+Na raiz do projeto vamos criar o arquivo _index.html_ para fazer a estrutura da página.
+
+> Vale lembrar que o nome _index_ no arquivo da criado serve para que o servidor reconheça que ele é o nosso arquivo inicial do nosso projeto
+
+Você deve colocar p seguinte template na página:
+
+```html
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>pokedex</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <!-- Links das referências das folhas de estilos do css -->
+</head>
+<body>
+  <!-- Esdtrutura da página -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+  <!-- Referências de scripts da página -->
+</body>
+</html>
+```
+
+No final você deverá ver essa estrutura em seu projeto
+
+![imagem da estrutura inicial da página](docs/image-folder-and-files.png)
+
+Depois você baixa os ícones dos tipos de pokemons e coloque eles na pasta __Image__, Certifique que a pasta de icones esteja com o nome icones, caso não esteja é só renomear. E você verá a seguinte estrutura:
+
+![imagem da estrutura da pasta image](docs/image-icons.png)
+
+Na pasta javaScript vamos criar três arquivos:
+
+* __idFormatter.js__ para fazer o tratamento do id do pokemon
+* __main.js__ para fazer as interações na página
+* __pokemon.js__ para criar o modelo do pokemon
+
+No final ficará assim:
+
+![imagem da estrutura da pasta JavaScript](docs/image-javascript-files.png)
+
+Na pasta CSS vamos criar alguns arquivos para a formatação da página
+
+* __main.css__ responsável por fazer as configurações globais da página
+* __pokemon-card.css__ Responsável por fazer a formatação do card pokemon
+* __pokemon-container.css__ Responsável pelo posicionamento dos elementos aside e card
+* __pokemon-footer.css__ Responsável pelo footer do aside
+* __pokemon-list.css__ Responsável pela listagem dos pokemons
+* __pokemon-menu.css__ Responsável pelo menu do aside
+* __pokemon-navigation.css__ Responsável pela navegação da lista
+
+No final ficara assim:
+
+![imagem da estrutura da pasta css](docs/image-css-files.png)
+
+E pronto nossa estrutura já está pronta.

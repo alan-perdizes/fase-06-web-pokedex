@@ -1,0 +1,1 @@
+const idFormatter = (id) => ("000" + id).slice(-3)

@@ -1,0 +1,8 @@
+.pokemon-footer {
+  background-color: var(--color-red-80);
+  /* border-top: 10px solid var(--color-red-50); */
+}
+
+.pokemon-footer span {
+  color: var(--color-write);
+}

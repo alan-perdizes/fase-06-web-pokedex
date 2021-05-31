@@ -1,0 +1,62 @@
+.pokemon-card {
+  background-color: var(--color-orange-60);
+  border: 2px solid var(--color-orange);
+}
+
+.pokemon-card-display {
+  background-color: var(--color-blue);
+  border: 3px solid var(--color-blue-80);
+}
+
+.pokemon-card-title {
+  background-color: var(--color-write);
+  border: 3px solid var(--color-black);
+}
+
+.pokemon-card-details, .pokemon-card-stats {
+  background-color: var(--color-black);
+  border: 3px solid var(--color-black);
+}
+
+.pokemon-card-info {
+  overflow-y: auto;
+  background-color: var(--color-black);
+}
+
+.pokemon-card-details tr td {
+  color: var(--color-write);
+}
+
+.pokemon-card-details-type {
+  background-color: #aaa;
+  text-shadow: 1px 1px 1px black;
+  margin-right: 5px;
+}
+
+.pokemon-card-details-type img {
+  filter: drop-shadow(1px 1px 1px black);
+}
+
+.pokemon-card-details-type:last-child {
+  margin-right: 0px;
+}
+
+.pokemon-card-details-abilities-is-hidden {
+  color: var(--color-gray);
+}
+
+.pokemon-card-table-body, .pokemon-card-table-title  {
+  font-family: "Pokemon X and Y";
+  display: block;
+  text-align: center;
+  border: 2px solid var(--color-write-80);
+}
+
+.pokemon-card-table-title {
+  background-color: var(--color-write-80);
+  color: var(--color-black);
+}
+
+.pokemon-card-table-body {
+  border: 2px solid var(--color-green-30);
+}

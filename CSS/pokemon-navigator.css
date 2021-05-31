@@ -1,0 +1,11 @@
+.pokemon-navigation button {
+  background-color: var(--color-red);
+}
+
+.pokemon-navigation button:hover {
+  background-color: var(--color-red);
+}
+
+.pokemon-navigation button:disabled {
+  background-color: var(--color-red);
+}

@@ -1,0 +1,46 @@
+@font-face {
+  font-family: "Pokemon X and Y";
+  src: url("../css/fonts/Pokemon X and Y.ttf");
+}
+
+:root {
+  --color-red-80:         #CE1131;
+  --color-red-70:         #BD0F34;
+  --color-red-50:         #810A1E;
+  --color-blue:           #0BCDFF;
+  --color-blue-90:        #31A7F1;
+  --color-blue-80:        #267EED;
+  --color-blue-50:        #095378;
+  --color-yellow:         #F9DF00;
+  --color-orange:         #838307;
+  --color-orange-60:      #dddf62;
+  --color-black:          #262626;
+  --color-gray:           #6A6A72;
+  --color-write:          #FBFBFB;
+  --color-write-80:       #DEDEDE;
+  --color-green-50:       #55AB62;
+  --color-green-30:       #32673a;
+
+  --color-type-bug:       #A6B91A;
+  --color-type-dark:      #705746;
+  --color-type-dragon:    #6F35FC;
+  --color-type-electric:  #F7D02C;
+  --color-type-fairy:     #D685AD;
+  --color-type-fighting:  #C22E28;
+  --color-type-fire:      #EE8130;
+  --color-type-flying:    #A98FF3;
+  --color-type-ghost:     #735797;
+  --color-type-grass:     #7AC74C;
+  --color-type-ground:    #E2BF65;
+  --color-type-ice:       #96D9D6;
+  --color-type-normal:    #A8A77A;
+  --color-type-poison:    #A33EA1;
+  --color-type-psychic:   #F95587;
+  --color-type-rock:      #B6A136;
+  --color-type-steel:     #B7B7CE;
+  --color-type-water:     #6390F0;
+}
+
+body {
+  background-color: var(--color-write);
+}
